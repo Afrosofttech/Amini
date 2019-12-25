@@ -20,6 +20,8 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- custom css created by AMS -->
+  <link href="css/custom.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -30,239 +32,6 @@
   <link href="css/grayscale.min.css" rel="stylesheet">
   <!-- favicon-->
    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-
-   <style>
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-section{
-	padding: 60px 0;
-}
-section .section-title{
-	text-align:center;
-	color:#007b5e;
-	margin-bottom:50px;
-	text-transform:uppercase;
-}
-#research{
-	background:#ffffff;
-}
-#research .card{
-	padding: 1rem!important;
-	border: none;
-	margin-bottom:1rem;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
-}
-#research .card:hover{
-	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-}
-#research .card .card-block{
-	padding-left: 50px;
-    position: relative;
-}
-#research .card .card-block a{
-	color: #007b5e !important;
-	font-weight:700;
-	text-decoration:none;
-}
-#research .card .card-block a i{
-	display:none;
-	
-}
-#research .card:hover .card-block a i{
-	display:inline-block;
-	font-weight:700;
-	
-}
-#research .card .card-block:before{
-	font-family: FontAwesome;
-    position: absolute;
-    font-size: 39px;
-    color: #007b5e;
-    left: 0;
-	-webkit-transition: -webkit-transform .2s ease-in-out;
-    transition:transform .2s ease-in-out;
-}
-#research .card .block-1:before{
-    content: "\f209";
-}
-#research .card .block-2:before{
-    content: "\f19c";
-}
-#research .card .block-3:before{
-    content: "\f080";
-}
-#research .card .block-4:before{
-    content: "\f0f7";
-}
-
-#research .card:hover .card-block:before{
-	-webkit-transform: rotate(360deg);
-	transform: rotate(360deg);	
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
-}
-
-/*Aboutus Section*/
-.aboutus-section {
-    padding: 90px 0;
-}
-.aboutus-title {
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 32px;
-    margin: 0 0 39px;
-    padding: 0 0 11px;
-    position: relative;
-    text-transform: uppercase;
-    color: #000;
-}
-.aboutus-title::after {
-    background: #64a19d none repeat scroll 0 0;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 54px;
-}
-.aboutus-text {
-    color: #606060;
-    font-size: 13px;
-    line-height: 22px;
-    margin: 0 0 35px;
-}
-
-a:hover, a:active {
-    color: red;
-    text-decoration: none;
-    outline: 0;
-}
-.aboutus-more {
-    border: 1px solid #64a19d;
-    border-radius: 25px;
-    color: #64a19d;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0;
-    padding: 7px 20px;
-    text-transform: uppercase;
-}
-.feature .feature-box .iconset {
-    background: #fff none repeat scroll 0 0;
-    float: left;
-    position: relative;
-    width: 18%;
-}
-.feature .feature-box .iconset::after {
-    background: #64a19d none repeat scroll 0 0;
-    content: "";
-    height: 150%;
-    left: 43%;
-    position: absolute;
-    top: 100%;
-    width: 1px;
-}
-
-.feature .feature-box .feature-content h4 {
-    color: #64a19d;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin: 0 0 5px;
-}
-
-
-.feature .feature-box .feature-content {
-    float: left;
-    padding-left: 28px;
-    width: 78%;
-}
-.feature .feature-box .feature-content h4 {
-    color: #64a19d;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin: 0 0 5px;
-}
-.feature .feature-box .feature-content p {
-    color: #64a19d;
-    font-size: 13px;
-    line-height: 22px;
-}
-.icon {
-    color : #64a19d;
-    padding:0px;
-    font-size:40px;
-    border: 1px solid #64a19d;
-    border-radius: 100px;
-    color: #64a19d;
-    font-size: 28px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    width: 70px;
-}
-}
-
-/* Glyphicons Support for bootstrap 4*/
-@font-face {
-  font-family: 'Glyphicons Halflings';
-
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-.glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.glyphicon-asterisk:before {
-  content: "\002a";
-}
-.glyphicon-plus:before {
-  content: "\002b";
-}
-.glyphicon-euro:before,
-.glyphicon-eur:before {
-  content: "\20ac";
-}
-.glyphicon-minus:before {
-  content: "\2212";
-}
-.glyphicon-cloud:before {
-  content: "\2601";
-}
-.glyphicon-envelope:before {
-  content: "\2709";
-}
-.glyphicon-pencil:before {
-  content: "\270f";
-}
-.glyphicon-glass:before {
-  content: "\e001";
-}
-.glyphicon-music:before {
-  content: "\e002";
-}
-.glyphicon-search:before {
-  content: "\e003";
-}
-.glyphicon-heart:before {
-  content: "\e005";
-}
-   </style>
 
 </head>
 
@@ -277,7 +46,7 @@ a:hover, a:active {
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto navbar-right">
+        <ul class="navbar-nav ml-auto navbar-right"  style="margin-right:-6vw;">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
@@ -299,14 +68,14 @@ a:hover, a:active {
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#forum">Forum</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#publication">Publications</a>
           </li>
-        <!--<li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#funding">Funding</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#forum">Forum</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="blog/">Blog</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -316,18 +85,55 @@ a:hover, a:active {
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
+  <!-- <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-     <!-- <div class="display-4 mx-auto text-white font-weight-bold my-0 text-uppercase" >Amini Centre for Policy Research</div>-->
       <div class="typewrite display-4 mx-auto text-white font-weight-bold my-0 text-uppercase" data-period="4000" data-type='[ "Amini Centre for Policy Research"]'>
             <span class="wrap"></span>
       </div>
-        <!--<h1 class="mx-auto  my-0 text-uppercase text-white font-weight-bold ">Amini Centre for Policy Research </h1>-->
         <a href="#about" class="btn btn-danger text-white js-scroll-trigger mt-5">Get to Know Us</a>
       </div>
     </div>
-  </header>
+  </header> -->
+
+ <!-- page-header bootsnipp -->
+ <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="page-caption">
+                        <!-- <h1 class="page-title">Hike Pageheader</h1> -->
+                        <div class="mx-auto text-center">
+                          <div class="typewrite display-4 mx-auto text-white font-weight-bold my-0 text-uppercase" data-period="4000" data-type='[ "Amini Center for Policy Research"]'>
+                                <span class="wrap"></span>
+                          </div>
+                            <!-- <a href="#about" class="btn btn-danger text-white js-scroll-trigger mt-5">Get to Know Us</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.page-header-->
+    <!-- news -->
+    <div class="card-section">
+        <div class="container">
+            <div class="card-block bg-white mb30">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <!-- section-title -->
+                        <div class="section-title mb-0 text-center">
+                            <h2 class="font-weight-bold">A pan-african think tank</h2>
+                            <!-- <p>Our approach is very simple: we define your problem and give the best solution. </p> -->
+                             <a href="#about" class="btn btn-danger text-white js-scroll-trigger mt-5">Get to Know Us</a>
+                        </div>
+                        <!-- /.section-title -->
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+  </div>
 
 <!-- Aboutus Section -->
   <div class="aboutus-section" id="about">
@@ -338,12 +144,12 @@ a:hover, a:active {
                         <h2 class="aboutus-title">About Us</h2>
                         <p class="aboutus-text">Amini Centre for Policy Research is an independent think tank. It is registered as a non-profit organisation limited by guarantee under the Patents and Companies Registration Agency of Zambia.</p>
                         <p class="aboutus-text">We undertake research in International Relations, Development, Elections and the work of the Zambian parliament. Through our research, we provide to the public as well as government with policy analysis and recommendations.</p>
-                        <a class="aboutus-more" href="#about">read more</a>
+                        <!-- <a class="aboutus-more js-scroll-trigger" href="#research">read more</a> -->
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="aboutus-banner">
-                        <img src="http://themeinnovation.com/demo2/html/build-up/img/home1/about1.jpg" alt="zumani">
+                        <!-- <img src="img/about.png" alt="zumani"> -->
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-6 col-xs-12">
@@ -366,7 +172,7 @@ a:hover, a:active {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Values</h4>
-                                    <p><kbd>-Intergrity</kbd><br><kbd>-Youth Leadership</kbd> <br><kbd>-Excellence </kbd><br><kbd>-Transpranecy </kbd><br><kbd>-Quality Fun</kbd></p>
+                                    <p>-Intergrity<br>-Youth Leadership<br>-Excellence<br>-Transpranecy<br>-Quality Fun</p>
                                 </div>
                             </div>
                         </div>
@@ -376,6 +182,52 @@ a:hover, a:active {
         </div>
     </div>
   <!-- ./Aboutus Section -->
+
+   <!--Current Blogs-->
+<!-- details card section starts from here -->
+<section class="details-card" style="background:white;">
+    <div class="container">
+    <div class="col-12 text-center">
+              <h1 class="text-primary font-weight-bold ">Latest blogs</h1>
+          </div>
+        <div class="row">
+        <?php include 'blog/includes/connection.php';?>
+        <?php
+  $query = "SELECT * FROM posts WHERE status='published' AND featured='featured' ORDER BY updated_on DESC LIMIT 3";
+  $run_query = mysqli_query($conn, $query) or die(mysqli_error($conn));
+
+  if (mysqli_num_rows($run_query) > 0) {
+    while ($row = mysqli_fetch_assoc($run_query)) {
+      $post_title = $row['title'];
+      $post_id = $row['id'];
+      $post_author = $row['author'];
+      $post_date = $row['postdate'];
+      $post_image = $row['image'];
+      $post_content = $row['content'];
+      $post_tags = $row['tag'];
+      $post_status = $row['status'];
+      if ($post_status !== 'published') {
+        echo "NO POST exist";
+      } else {
+      ?>
+          <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="blog/allpostpics/<?php echo $post_image; ?>" alt="900 * 300">
+                        <span><h4>by <?php echo $post_author; ?></h4></span>
+                    </div>
+                    <div class="card-desc">
+                        <h3 class='text-primary'><?php echo $post_title; ?></h3>
+                        <p><?php echo substr($post_content, 0, 300) . '.........'; ?></p>
+                            <a href="blog/publicposts.php?post=<?php echo $post_id; ?>" class="btn-card">Read</a>   
+                    </div>
+                </div>
+            </div>
+              <?php }}}?>
+              <hr>
+        </div>
+    </div>
+</section>
 
   <!-- About Section -->
   <!--<section id="about" class="about-section text-center pt-5">
@@ -419,7 +271,7 @@ a:hover, a:active {
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
-           
+
           </span>
           <h4 class="service-heading font-weight-bold">International Relations</h4>
           <p class="text-muted">Under the banner of International Relations, we seek to produce quality information and analysis of Zambian foreign policy against the backdrop of a global policy framework. The center will also track and analyze Zambian foreign policy in action and its relations with its neighbors and other complex multilateral institutions  i.e. United Nations, Africa Union , Common Market for Eastern and Southern Africa (COMESA), Southern Africa Development Council (SADC), The Common Wealth and all affiliated international bodies.</p>
@@ -428,7 +280,7 @@ a:hover, a:active {
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-university fa-stack-1x fa-inverse"></i>
-         
+
           </span>
           <h4 class="service-heading font-weight-bold">Legislative Research</h4>
           <p class="text-muted">We support the functions of the legislature by making their work accessible and transparent through public engagement. We monitor their work by reviewing and analysing budgets, bills, allocation and spending of the constituency development fund and debates during the parliament. We also provide independent research support to councillors and members of parliament pertaining to policy and debates.</p>
@@ -437,7 +289,7 @@ a:hover, a:active {
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
-         
+
           </span>
           <h4 class="service-heading font-weight-bold">Electoral Analysis</h4>
           <p class="text-muted">We provide data-driven electoral analysis of candidates, voting patterns, constituents, voter partners, party manifestos and election results. One of the challenges faced by growing democracies in the world is the miscommunication between political partners and the votes. Our goal is to be the bridge between these two stakeholders by providing quality research and information, educating voters on the importance of casting their ballot and holding elected officials accountable to their campaign promises.</p>
@@ -457,10 +309,9 @@ a:hover, a:active {
   <!-- Services section -->
 	<section id="research">
 		<div class="container-fluid">
-			<h2 class="section-title mb-2 font-weight-bold">Research</h2>
-			<p class="text-center text-muted h5">What we research on</p>
-			<div class="row mt-5">
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			<h2 class="section-title font-weight-bold">Thematic Areas</h2>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 					<div class="card">
 						<div class="card-block block-1">
 							<h3 class="card-title">International Relations</h3>
@@ -499,99 +350,15 @@ a:hover, a:active {
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</section>
 	<!-- /Services section -->
 
-<!-- Forum-->
-<section class="project-section bg-dark text-white mt-3" id="forum">
- <div class="container">
- <div class="container text-center">
-     <h1 class="mb-4 text-primary font-weight-bold mt-0 pt-3">Events and Programs by ACPR</h1>
-  <div id="demo" class="carousel slide " data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
-    <li data-target="#demo" data-slide-to="4"></li>
-    <li data-target="#demo" data-slide-to="5"></li>
-    <li data-target="#demo" data-slide-to="6"></li>
-    <li data-target="#demo" data-slide-to="7"></li>
-    <li data-target="#demo" data-slide-to="8"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">The Conversation</h3>
-        <p>A platform for the public to discuss and debate pertinent political, economic and social issues affecting policy in Zambia and Africa. We invite a panel of experts on the topic being discussed to provide quality analysis.</p>
-      </div>
-    </div>
-    <div class="carousel-item p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">The Lusaka Indaba</h3>
-        <p>A foreign policy and research symposium. We invite policymakers, government officials, researchers, entrepreneurs from Africa and across the road convene, debate and discuss ideas, ideate new solutions that will drive regional policy framework.</p>
-      </div>
-    </div>
-      <div class="carousel-item p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">The Policy Expert</h3>
-        <p>A competition for undergraduate students. Participants work in teams of three to write a policy brief that proposes a solution to a real-world problem. The winning team wins a cash prize and a three-month internship at ACPR.</p>
-      </div>
-    </div>
-    <div class="carousel-item p-5">
-      <div class="carousel-text" >
-        <h3 class="font-weight-bold">Africa Weekly Monitor</h3>
-        <p>We curate a weekly publication of the news that made headlines in Africa and tries to give an unbiased and independent analysis. We often add satire and humour to the weekly monitor. A new issue is published every Friday.</p>
-      </div>
-    </div>
-      <div class="carousel-item p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">International Believe Conference</h3>
-        <p>A capacity-building educational seminar for High School Students and School leavers. We invite young people from across Africa who have excelled in their respective professions to speak at the conference. The IBC is an annual event held in the second week of December.</p>
-      </div>
-    </div>
-     <div class="carousel-item p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">Parliament at a Glance</h3>
-        <p>Get up to date with all the debates that happened in parliament by reading Parliament at a Glance every Saturday. The members of parliament have the mandate to build our society through the debates that lead to laws that govern us. We help you know what is going on.</p>
-      </div>
-    </div>
-    <div class="carousel-item p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">Lusaka Literature Festival</h3>
-        <p>An event for book lovers, authors and publishers. We meet in the capital city of Zambia, Lusaka with all stakeholders in the discipline of literature from Africa and across the world. This event aims at upholding the written words and celebrating it.</p>
-      </div>
-    </div>
-    <div class="carousel-item p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">Amini Policy Boot Camp</h3>
-        <p>This is a 3-day policy boot camp for high school students and school leavers. The participants learn the basics of policy analysis, making decisions using data and research methodologies. We teach them how to maintain excellence while having fun.</p>
-      </div>
-    </div>
-    <div class="carousel-item p-5">
-      <div class="carousel-text">
-        <h3 class="font-weight-bold">Amini Annual Fundraising Dinner</h3>
-        <p>The annual dinner is an opportunity for donors and staff of ACPR to meet and re-ignite the objectives of the organisation. We raise money to support our corporate social responsibility initiatives and the day to day functions of our think tank.</p>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-</div>
-</div>
-</section>
-
 <!-- Publications -->
-<section id="publication" class="project-section bg-dark text-white">
+<section id="publication" class="project-section ">
 	<div class="container text-center">
-    <h1 class="mb-4 text-primary text-center font-weight-bold mt-0 pt-3">Publications</h1>
-      <p class=" text-white text-center">Click on the images to Download Some of our Publications!</p>
+    <h1 class="mb-4 text-primary text-center font-weight-bold mt-0">Publications</h1>
+      <p class=" text-center text-muted h5">Click on the images to Download Some of our Publications!</p>
 		<div class="row services">
 			<div class="col-md-4">
 				<div class="service">
@@ -624,26 +391,116 @@ a:hover, a:active {
 	</div>
 </section>
 
+<!-- Forum-->
+<section class="project-section p-5" id="forum">
+ <div class="container-fluid text-center">
+     <h1 class=" text-primary font-weight-bold mt-0 pt-3">Events and Programs by ACPR</h1>
+  <div id="demo" class="carousel slide " data-ride="carousel">
+  <ul class="carousel-indicators bg-primary">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+    <li data-target="#demo" data-slide-to="6"></li>
+    <li data-target="#demo" data-slide-to="7"></li>
+    <li data-target="#demo" data-slide-to="8"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">The Conversation</h3>
+        <p>A platform for the public to discuss and debate pertinent political, economic and social issues affecting policy in Zambia and Africa. We invite a panel of experts on the topic being discussed to provide quality analysis.</p>
+      </div>
+    </div>
+    <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">The Lusaka Indaba</h3>
+        <p>A foreign policy and research symposium. We invite policymakers, government officials, researchers, entrepreneurs from Africa and across the road convene, debate and discuss ideas, ideate new solutions that will drive regional policy framework.</p>
+      </div>
+    </div>
+      <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">The Policy Expert</h3>
+        <p>A competition for undergraduate students. Participants work in teams of three to write a policy brief that proposes a solution to a real-world problem. The winning team wins a cash prize and a three-month internship at ACPR.</p>
+      </div>
+    </div>
+    <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">Africa Weekly Monitor</h3>
+        <p>We curate a weekly publication of the news that made headlines in Africa and tries to give an unbiased and independent analysis. We often add satire and humour to the weekly monitor. A new issue is published every Friday.</p>
+      </div>
+    </div>
+      <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">International Believe Conference</h3>
+        <p>A capacity-building educational seminar for High School Students and School leavers. We invite young people from across Africa who have excelled in their respective professions to speak at the conference. The IBC is an annual event held in the second week of December.</p>
+      </div>
+    </div>
+     <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">Parliament at a Glance</h3>
+        <p>Get up to date with all the debates that happened in parliament by reading Parliament at a Glance every Saturday. The members of parliament have the mandate to build our society through the debates that lead to laws that govern us. We help you know what is going on.</p>
+      </div>
+    </div>
+    <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">Lusaka Literature Festival</h3>
+        <p>An event for book lovers, authors and publishers. We meet in the capital city of Zambia, Lusaka with all stakeholders in the discipline of literature from Africa and across the world. This event aims at upholding the written words and celebrating it.</p>
+      </div>
+    </div>
+    <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">Amini Policy Boot Camp</h3>
+        <p>This is a 3-day policy boot camp for high school students and school leavers. The participants learn the basics of policy analysis, making decisions using data and research methodologies. We teach them how to maintain excellence while having fun.</p>
+      </div>
+    </div>
+    <div class="carousel-item p-5">
+      <div class="carousel-text">
+        <h3 class="font-weight-bold text-primary">Amini Annual Fundraising Dinner</h3>
+        <p>The annual dinner is an opportunity for donors and staff of ACPR to meet and re-ignite the objectives of the organisation. We raise money to support our corporate social responsibility initiatives and the day to day functions of our think tank.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon bg-primary"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon bg-primary"></span>
+  </a>
+</div>
+</div>
+</section>
+
   <!-- Signup Section -->
   <section id="contact" class="signup-section">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive our newsletters!</h2>
-
-          <form class="form-inline d-flex" method="post" action="action.php">
-            <input type="email" name="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" name="submit" class="btn btn-danger mx-auto">Subscribe</button>
-            <div class="form-group">
-              <div class="col-sm-10 col-sm-offset-2" id="success">
-                <?php
-                   if(!empty($statusMsg))
-                  echo "<script type='text/javascript'>alert('$statusMsg');</script>";
-               ?>
+          <i class="far fa-paper-plane fa-2x text-white"></i>
+          <h2 class="text-white">Subscribe to receive our newsletters!</h2>
+    <!-- Begin Mailchimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+        	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+        	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+        	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup" style="background: none;">
+        <form action="https://aminicpr.us4.list-manage.com/subscribe/post?u=61184e446f5d05b21eaf35dd8&amp;id=6ffcf8122b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+        	<label for="mce-EMAIL"></label>
+        	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_61184e446f5d05b21eaf35dd8_6ffcf8122b" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background: red;"></div>
             </div>
-          </form>
+        </form>
+        </div>
+
+<!--End mc_embed_signup-->
 
         </div>
       </div>
@@ -651,7 +508,7 @@ a:hover, a:active {
   </section>
 
   <!-- Contact Section -->
-  <section class="contact-section bg-black">
+  <!-- <section class="contact-section bg-black">
     <div class="container">
 
       <div class="row">
@@ -702,7 +559,7 @@ a:hover, a:active {
       </div>
 
     </div>
-  </section>
+  </section> -->
   <!-- Footer -->
   <?php
       include_once "footer.php";
