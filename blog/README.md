@@ -14,25 +14,6 @@
 - Navigate to the installation in your browser
 - Done :)
 
-### Login Details
-1. Super-Admin:
-
-username: superadmin
-
-password: superadmin
-
-2. Admin:
-
-username: admin
-
-password: adminpass
-
-3. User:
-
-username: user
-
-password: userpass
-
 ### Main Features
 
 - Multiple user access:  Allows multiple type of users to login 
@@ -43,10 +24,4 @@ password: userpass
 - Search news:  Option for search all content 
 - Secure registration and login option for users
 
-### To-Do  list
-- Add pagination for news post display
-- Add various category for news post
-- Add comment section for each post
-- Add login with facebook and google+ option
-- Add forget password recovery option for users
 
